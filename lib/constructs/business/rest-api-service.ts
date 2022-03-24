@@ -423,7 +423,7 @@ export class TimetableApiService extends AbstractRestApiService {
             timetableFunctions.patchFunction, {proxy: true},
         );
         const putIntergation = new LambdaIntegration(
-            timetableFunctions.putFunction. {proxy: true},
+            timetableFunctions.putFunction, {proxy: true},
         );
         // const importIntegration = new LambdaIntegration(
         //     timetableFunctions.importFunction, {proxy: true},
